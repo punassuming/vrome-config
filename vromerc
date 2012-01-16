@@ -5,6 +5,18 @@
 map  j 5j
 map  k 5k
 
+" Close, Reopen Closed
+map x dc
+map <s-x> u
+
+" traverse tabs
+map <s-j> gt
+map <s-k> gT
+
+" page scroll
+map <d> <c-d>
+map <u> <c-u>
+
 " Remove key mapping in normal mode
 " unmap <C-f>
 
