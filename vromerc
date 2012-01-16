@@ -7,15 +7,15 @@ map  k 5k
 
 " Close, Reopen Closed
 map x dc
-map <s-x> u
+map X u
 
 " traverse tabs
-map <s-j> gt
-map <s-k> gT
+map J gt
+map K gT
 
 " page scroll
-map <d> <c-d>
-map <u> <c-u>
+map d <c-d>
+map u <c-u>
 
 " Remove key mapping in normal mode
 " unmap <C-f>
