@@ -18,12 +18,7 @@ map d 2<C-d>
 map u 2<C-u>
 
 " Go to last tab
-map `` <C-^>
-
-map <M-1> 1gt
-map <M-2> 2gt
-map <M-3> 3gt
-map <M-4> 4gt
+map ` <C-^>
 
 " Remove key mapping in normal mode, bring back normal search
 unmap <C-f>
@@ -32,14 +27,11 @@ unmap <M-d>
 " Pin item 
 map ! gp
 
-" G doesn't work
-map jk G
-
 " swap yank mappings
 map y Y
 map Y y
 
-nmap <M-x> :
+map <M-x> :
 
 " Change key mapping in insert mode
 " imap <M-h> <M-w>
