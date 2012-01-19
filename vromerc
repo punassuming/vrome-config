@@ -2,8 +2,8 @@
 
 " Change key mapping in normal mode, please check Vrome Features for available key mapping
 " map  j <C-f>
-map  j 5j
-map  k 5k
+map  j 8j
+map  k 8k
 
 " Close, Reopen Closed
 map x dc
@@ -14,11 +14,32 @@ map J gt
 map K gT
 
 " page scroll
-map d <C-d>
-map u <C-u>
+map d 2<C-d>
+map u 2<C-u>
+
+" Go to last tab
+map `` <C-^>
+
+map <M-1> 1gt
+map <M-2> 2gt
+map <M-3> 3gt
+map <M-4> 4gt
 
 " Remove key mapping in normal mode, bring back normal search
 unmap <C-f>
+unmap <M-d>
+
+" Pin item 
+map ! gp
+
+" G doesn't work
+map jk G
+
+" swap yank mappings
+map y Y
+map Y y
+
+nmap <M-x> :
 
 " Change key mapping in insert mode
 " imap <M-h> <M-w>
@@ -46,8 +67,7 @@ set searchengines={"encrypted":"https://encrypted.google.com/search?hl=en&q=%s",
 " Change default search engine, default is google.
 set defaultsearch=encrypted
 
-" Disable autocomplete
-" set noautocomplete
+set autocomplete
 
 
 " The server port is what external server running on
